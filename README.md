@@ -11,9 +11,9 @@ images under favorable lighting conditions is not always feasible, particularly 
 conditions such as rain, fog, or snow, which can impede object recognition. This study aims to
 address this issue by focusing on generating clean images by restoring raindrop-deteriorated images.
 Our proposed model comprises a raindrop-mask network and a raindrop-removal network. The
-raindrop-mask network is based on U-Net architecture, which learns the location, shape, and brightness of raindrops. The rain-removal network is a generative adversarial network based on U-Net and
+raindrop-mask network is based on U-Net architecture, which learns the location, shape, and brightness of raindrops. The rain-removal network is a generative adversarial network based on U-Net and
 comprises two attention modules: the raindrop-mask module and the residual convolution block
-module. These modules are employed to locate raindrop areas and restore the affected regions. Multiple loss functions are utilized to enhance model performance. The image-quality assessment metrics
+module. These modules are employed to locate raindrop areas and restore the affected regions. Multiple loss functions are utilized to enhance model performance. The image-quality assessment metrics
 of proposed method, such as SSIM, PSNR, CEIQ, NIQE, FID, and LPIPS scores, are 0.832, 26.165,
 3.351, 2.224, 20.837, and 0.059, respectively. Comparative evaluations against state-of-the-art models
 demonstrate the superiority of our proposed model based on qualitative and quantitative results.
@@ -76,7 +76,6 @@ python train.py
 ## Test
 ```
 python test.py 
-
 ```
 ## Cite 
 ```
